@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn_DM"
+  DTS:DTSID="{4E0B9CB7-EB44-44FB-8902-32158F9786F3}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Initial Catalog=ClothingDM;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DV2DM-{4E0B9CB7-EB44-44FB-8902-32158F9786F3}Data Connection2;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

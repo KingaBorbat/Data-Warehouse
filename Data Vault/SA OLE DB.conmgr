@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SA OLE DB"
+  DTS:DTSID="{E9DC21FD-08A2-4E83-BADA-24CDCC36AEB3}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Initial Catalog=ClothingSA;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-SA2DV-{E9DC21FD-08A2-4E83-BADA-24CDCC36AEB3}Data Connection1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
